@@ -9,9 +9,8 @@
   <link rel="stylesheet" href="css/common.css" />
   <link rel="stylesheet" href="css/pages/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <script src="js/common.js" defer></script>
   <script src="js/pages/index.js" defer></script>
-  <script src="js/pages/favorities.js"></script>
+  <script src="js/common.js" defer></script>
 </head>
 
 <body>
@@ -35,20 +34,18 @@
 
   <main>
     <h2>Últimas Películas en Cartelera</h2>
-    <section id="form-movie-new">
+    <section class="form-movie-new">
       <!--Seccion para agregar una palicula favorita por codigo-->
       <form action="favorities.html">
         <p>Agregar película favorita por Código</p>
         <input type="text" placeholder="Ingrese el código">
         <button type="submit">Agregar</button>
       </form>
+      <div id="sec-messages"></div>
     </section>
     <section id="sec_peliculas">
       <!--Seccion visualizacion de peliculas-->
       <div class="contenedorPeliculas" id="contenedorPeliculas"></div>
-    </section>
-    <section id="sec-messages">
-      <!--Seccion para mensajes-->
     </section>
     <section id="sec_paginador_peliculas">
       <!--Seccion de Paginacion-->
@@ -63,5 +60,3 @@
     <p>Desarrollado con ♥ - LC2</p>
   </footer>
 </body>
-
-</html>
