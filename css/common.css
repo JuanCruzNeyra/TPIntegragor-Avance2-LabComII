@@ -178,34 +178,25 @@ main p {
   display: none;
 }
 
-#sec-messages {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  margin-top: 20px;
-}
-
-#sec-messages .msg {
+.msg {
   width: 50%;
   margin: 20px auto;
   padding: 15px;
   border-radius: 15px;
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
   font-weight: 200;
   text-align: center;
 }
 
-#sec-messages .msg.amarillo {
+.amarillo {
   background-color: #ffc107;
 }
 
-#sec-messages .msg.rojo {
+.rojo {
   background-color: #dc3545;
 }
 
-#sec-messages .msg.verde {
+.verde {
   background-color: #28a745;
 }
-
